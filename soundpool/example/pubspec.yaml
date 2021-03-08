@@ -2,6 +2,9 @@ name: soundpool_example
 description: Demonstrates how to use the soundpool plugin.
 version: 0.0.1+1
 
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
 dependencies:
   flutter:
     sdk: flutter
