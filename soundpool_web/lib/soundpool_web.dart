@@ -116,7 +116,7 @@ class _AudioContextWrapper {
   }
 
   Future<int> loadUri(String uri) async {
-    var response = await http.get(uri);
+    var response = await http.get(Uri.parse(uri));
     Uint8List buffer = response.bodyBytes;
     return await load(buffer.buffer);
   }
