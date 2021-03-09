@@ -15,17 +15,6 @@ dependencies:
       url: https://github.com/nk2IsHere/soundpool.git
       path: soundpool_platform_interface
   
-  soundpool_web: 
-    git: 
-      url: https://github.com/nk2IsHere/soundpool.git
-      path: soundpool_web
-  
-  soundpool_macos:
-    git: 
-      url: https://github.com/nk2IsHere/soundpool.git
-      path: soundpool_macos
-    
-    
 flutter:
   plugin:
     platforms:
@@ -34,7 +23,3 @@ flutter:
         pluginClass: SoundpoolPlugin
       ios:
         pluginClass: SoundpoolPlugin
-      web:
-        default_package: soundpool_web 
-      macos:
-        default_package: soundpool_macos
